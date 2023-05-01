@@ -5,6 +5,7 @@ import { setupCounter } from "./counter.js";
 
 console.log(import.meta.env.VITE_MY_API_KEY);
 console.log(import.meta.env.VITE_ENVIRONMENT);
+console.log(import.meta.env.VITE_ENVIRONMENT);
 
 document.querySelector("#app").innerHTML = `
   <div>
