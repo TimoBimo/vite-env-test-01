@@ -9,6 +9,7 @@ console.log(import.meta.env.VITE_ENVIRONMENT);
 console.log("neuer test");
 console.log("neuer test");
 console.log("neuer test");
+console.log("neuer test");
 const airtableApi = import.meta.env.VITE_AIRTABLE_API;
 var base = new Airtable({ apiKey: airtableApi }).base("appBb5j8BS7eDF0Y1");
 
