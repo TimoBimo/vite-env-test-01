@@ -7,6 +7,8 @@ console.log(import.meta.env.VITE_MY_API_KEY);
 console.log(import.meta.env.VITE_ENVIRONMENT);
 console.log(import.meta.env.VITE_ENVIRONMENT);
 
+console.log("neuer test");
+
 document.querySelector("#app").innerHTML = `
   <div>
     <a href="https://vitejs.dev" target="_blank">
